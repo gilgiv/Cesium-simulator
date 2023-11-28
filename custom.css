@@ -1,0 +1,39 @@
+h2 {
+    color: mediumpurple;
+}
+
+.float-container {
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    height: 90vh;
+}
+
+
+#globeMap {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#globeImg {
+    position: relative;
+}
+
+#arrowImg {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 2%
+}
+
+.col50 {
+    width: 50%;
+}
